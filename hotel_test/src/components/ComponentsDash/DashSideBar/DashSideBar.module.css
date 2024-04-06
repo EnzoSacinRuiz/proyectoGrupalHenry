@@ -1,0 +1,40 @@
+.sideBarContainer{
+    border-right: 1px solid black;
+    max-width: 220px;
+    
+}
+
+.sideBarContainer button {
+    width: 90%;
+    background-color: #9abfcb;
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.sideBarContainer button:hover {
+  background-color: #78959f;
+
+}
+
+.sideBarContainer button:active {
+    background-color: #000000;
+    color: #ddd;
+  }
+
+.child {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    background-color: transparent;
+    min-height: 100vh;
+    gap: 10px;
+}
+
+.child h3 {
+    width: 90%;
+    border-bottom: 1px solid rgb(121, 121, 121);
+}

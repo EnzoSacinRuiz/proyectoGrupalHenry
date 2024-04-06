@@ -1,0 +1,35 @@
+.divDetail {
+    padding: 20px;
+  }
+  
+  .Detailcontainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Detailcontainer img {
+    max-width: 400px; 
+    margin-right: 150px;
+
+    
+  }
+
+  .Detailcontainer input {
+    height: 17px;
+    width: 30px;
+    
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .details h2 {
+    margin-top: 2px;
+  }
+  
+  .flavorDetail {
+    background-color: rgb(215, 214, 214) 
+  }

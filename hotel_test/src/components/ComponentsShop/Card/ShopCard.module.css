@@ -1,0 +1,27 @@
+.price {
+    font-size: 1.25rem;
+    color: green; 
+    font-weight: bold;
+}
+
+.addCart {
+    background-color: rgb(206, 74, 74) !important;
+    color: aliceblue !important;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.addCart:hover {
+    background-color: rgb(155, 55, 55) !important;
+}
+
+.asd {
+    margin-top: 13px;
+    height: 300px !important;
+}
+
+.count {
+    width: 70px !important;
+    height: 40px;
+}
+

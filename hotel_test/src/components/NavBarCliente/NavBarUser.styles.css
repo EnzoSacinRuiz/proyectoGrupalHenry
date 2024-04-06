@@ -1,0 +1,98 @@
+/* NavBarUser.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c5e4e9;
+    height: 80px;
+  }
+  .navbar-logo img {
+    border-radius: 10px; /* Adjust the border-radius as needed */
+    max-width: 100px; /* Adjust the width as needed */
+    max-height: 60px; /* Adjust the height as needed */
+    object-fit: contain; /* This will ensure the image is scaled properly */
+    background-color: #8aca00;
+    margin-left: 30px;
+  }
+  
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Allows the links to grow and center the text */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px; /* Adjust spacing between links */
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+    position: absolute;
+    bottom: -5px;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .sign-in-btn {
+    padding: 8px 15px;
+    border: none;
+    background-color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #333;
+  }
+  
+  .cart-icon img{
+    border-radius: 10px; /* Adjust the border-radius as needed */
+    max-width: 50px; /* Adjust the width as needed */
+    max-height: 40px; /* Adjust the height as needed */
+    object-fit: contain; /* This will ensure the image is scaled properly */
+    margin-right: 30px;
+  }
+
+  .test-admin-btn {
+    padding: 8px 15px;
+    border: none;
+    background-color: rgb(191, 42, 42);
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .test-admin-btn:hover {
+    background-color: rgb(124, 28, 28);
+  }
+  

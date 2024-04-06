@@ -1,0 +1,37 @@
+.divLand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../assets/3d9275381194f708_logan-weaver-LzT-WMv1xrI-unsplash.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .buttonContainer {
+    text-align: center;
+  }
+  
+  .buttonContainer button {
+    padding: 10px 20px;
+    font-size: 12px;
+    transition: background-color 0.3s ease; 
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.buttonContainer button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+  
+  

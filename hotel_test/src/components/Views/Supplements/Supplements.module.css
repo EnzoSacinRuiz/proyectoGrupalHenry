@@ -1,0 +1,22 @@
+.cardsWrapped {
+    margin-left: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}

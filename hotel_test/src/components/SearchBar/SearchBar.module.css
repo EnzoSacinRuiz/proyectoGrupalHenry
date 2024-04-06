@@ -1,0 +1,6 @@
+.barElement input {
+    border: 1px solid black;
+    width: 198px;
+    height: 40px;
+    outline: none;
+}

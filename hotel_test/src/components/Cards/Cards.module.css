@@ -1,0 +1,19 @@
+/* Supp */
+
+.cardsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+/* Shop */
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; 
+    margin: 30px auto; 
+    gap: 10px;
+    max-width: 1000px;
+}

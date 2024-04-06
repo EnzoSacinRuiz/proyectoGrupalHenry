@@ -1,0 +1,13 @@
+.dashContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .dashCardList{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    grid-column: 2;
+  }

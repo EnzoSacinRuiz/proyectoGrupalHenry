@@ -1,0 +1,29 @@
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user
+{
+    flex: 1 0 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #3723e677;
+}
+  
+.supplement
+{
+    flex: 1 0 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ff00007c;
+}
+  
+.activity
+{
+    flex: 1 0 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #13ff327c;
+}
